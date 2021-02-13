@@ -642,3 +642,11 @@ Group.new('TSUnderline',          c.hue_6_2, c.none, no)
 Group.new('TSURI',                c.hue_6_2, c.none, no)
 Group.new('TSVariable',           c.mono_1, c.none, no)
 Group.new('TSVariableBuiltin',    c.hue_6_2, c.none, no)
+
+-----------------------------
+-- Language Server --
+-----------------------------
+
+Group.new('LspReferenceRead',     c.none, c.none, ul)
+Group.new('LspReferenceText',     c.none, c.none, ul)
+Group.new('LspReferenceWrite',     c.none, c.none, ul)
