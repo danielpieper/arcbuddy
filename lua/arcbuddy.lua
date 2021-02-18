@@ -127,8 +127,9 @@ Group.new('VisualNOS',    c.none,         c.visual_grey,    no)
 Group.new('WarningMsg',   c.hue_5,        c.none,      no)
 Group.new('TooLong',      c.hue_5,        c.none,      no)
 Group.new('WildMenu',     c.mono_1,       c.mono_3,         no)
-Group.new('SignColumn',   c.none,         c.mono_3,         no)
+Group.new('SignColumn',   c.none,         c.none,         no)
 Group.new('Special',      c.hue_2,        c.none,      no)
+Group.new('EndOfBuffer',  c.syntax_bg,    c.none,      no)
 
 ---------------------------
 -- Vim Help Highlighting --
