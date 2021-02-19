@@ -651,3 +651,18 @@ Group.new('TSVariableBuiltin',    c.hue_6_2, c.none, no)
 Group.new('LspReferenceRead',     c.none, c.none, ul)
 Group.new('LspReferenceText',     c.none, c.none, ul)
 Group.new('LspReferenceWrite',     c.none, c.none, ul)
+
+-----------------------------
+-- vim-startify --
+-----------------------------
+
+Group.new('StartifyBracket',     c.mono_4, c.none, no)
+Group.new('StartifyFile',     c.mono_1, c.none, b)
+Group.new('StartifyFooter',     c.syntax_gutter, c.none, no)
+Group.new('StartifyHeader',     c.hue_4, c.none, no)
+Group.new('StartifyNumber',     c.hue_6_2, c.none, b)
+Group.new('StartifyPath',     c.mono_2, c.none, no)
+Group.new('StartifySection',     c.hue_1, c.none, b)
+Group.new('StartifySelect',     c.hue_3_2, c.none, no)
+Group.new('StartifySlash',     c.mono_2, c.none, no)
+Group.new('StartifySpecial',     c.mono_4, c.none, no)
