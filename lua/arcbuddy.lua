@@ -2,7 +2,7 @@
 -- Description:  Light and dark atom one theme
 -- Author:       Th3Whit3Wolf <the.white.wolf.is.1337@gmail.com>
 -- Maintainer:   Th3Whit3Wolf <the.white.wolf.is.1337@gmail.com>
--- Website:      httpc.//github.com/Th3Whit3Wolf/onebuddy
+-- Website:      https://github.com/Th3Whit3Wolf/onebuddy
 -- License:      MIT
 local Color, c, Group, g, s = require("colorbuddy").setup()
 local b = s.bold
@@ -651,6 +651,30 @@ Group.new('TSVariableBuiltin',    c.hue_6_2, c.none, no)
 Group.new('LspReferenceRead',     c.none, c.none, ul)
 Group.new('LspReferenceText',     c.none, c.none, ul)
 Group.new('LspReferenceWrite',     c.none, c.none, ul)
+
+Group.new('LspDiagnosticsDefaultError',           c.hue_5,   c.none,  no)
+-- Group.new('LspDiagnosticsVirtualTextError',       g.LspDiagnosticsDefaultError,   c.none,  no)
+-- Group.new('LspDiagnosticsUnderlineError',         g.LspDiagnosticsDefaultError,   c.none,  uc)
+-- Group.new('LspDiagnosticsFloatingError',          g.LspDiagnosticsDefaultError,   g.pmenu, no)
+-- Group.new('LspDiagnosticsSignError',              g.LspDiagnosticsDefaultError,   c.none,  no)
+
+Group.new('LspDiagnosticsDefaultWarning',         c.hue_6_2,   c.none,  no)
+-- Group.new('LspDiagnosticsVirtualTextWarning',     g.LspDiagnosticsDefaultWarning,   c.none,  no)
+-- Group.new('LspDiagnosticsUnderlineWarning',       g.LspDiagnosticsDefaultWarning, c.none,  uc)
+-- Group.new('LspDiagnosticsFloatingWarning',        g.LspDiagnosticsDefaultWarning, g.pmenu, no)
+-- Group.new('LspDiagnosticsSignWarning',            g.LspDiagnosticsDefaultWarning, c.none,  no)
+
+Group.new('LspDiagnosticsDefaultInformation',     c.hue_1,   c.none,  no)
+-- Group.new('LspDiagnosticsVirtualTextInformation', g.LspDiagnosticsDefaultInformation,   c.none,  no)
+-- Group.new('LspDiagnosticsUnderlineInformation',   g.LspDiagnosticsDefaultInformation,   c.none,  uc)
+-- Group.new('LspDiagnosticsFloatingInformation',    g.LspDiagnosticsDefaultInformation,   g.pmenu, no)
+-- Group.new('LspDiagnosticsSignInformation',        g.LspDiagnosticsDefaultInformation,   c.none,  no)
+
+Group.new('LspDiagnosticsDefaultHint',            c.hue_4,   c.none,  no)
+-- Group.new('LspDiagnosticsVirtualTextHint',        g.LspDiagnosticsDefaultHint,   c.none,  no)
+-- Group.new('LspDiagnosticsUnderlineHint',          g.LspDiagnosticsDefaultHint,   c.none,  uc)
+-- Group.new('LspDiagnosticsFloatingHint',           g.LspDiagnosticsDefaultHint,   g.pmenu, no)
+-- Group.new('LspDiagnosticsSignHint',               g.LspDiagnosticsDefaultHint,   c.none,  no)
 
 -----------------------------
 -- vim-startify --
